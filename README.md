@@ -21,14 +21,14 @@ End the program
 ```
 ```py
 import numpy as np
-A = [[1,3],[2,5]]
-B = np.array([5,-3])
+A = [[1,-3],[3,1]]
+B = np.array([0,10])
 C = np.linalg.solve(A,B)
 print(C)
 ```
 
 ## Output:
-![Screenshot 2025-04-07 093457](https://github.com/user-attachments/assets/3918efaa-6c45-43f2-95d8-3e5ba2d3798c)
+![Screenshot 2025-04-07 094533](https://github.com/user-attachments/assets/f56608f5-40a4-414c-be57-e595555065ad)
 
 
 ## Result: 
